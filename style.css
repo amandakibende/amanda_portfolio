@@ -1,19 +1,59 @@
 body {
   background-color: #dae5e2;
-  font-size: 20px;
+  font-size: 15px;
   font-family: "Source Sans Pro", sans-serif;
   font-family: "Ubuntu", sans-serif;
 }
 
-.squares {
-  margin: 0;
-  padding: 10px;
-  border: 2px solid #dfe7ff;
-  background: #ffffff;
-  max-width: 800px;
-  border-spacing: 20px;
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #f4ffe8;
+  font-weight: bold;
+  font-style: italic;
+}
+
+header {
+  background-color: #ffffff;
+  background-size: cover;
+  background-position: center;
+  width: 82%;
+  height: 200px;
+  padding: 400px 80px;
+  text-align: center;
+}
+
+.p-header {
+  text-align: center;
+  font-size: 18px;
 }
 
 ul {
   list-style: none;
+}
+
+li {
+  display: inline;
+}
+
+.row {
+  max-width: 530px;
+  padding: 18px;
+  display: flex;
+  justify-content: space-between;
+  margin: 1px;
+}
+
+button {
+  padding: 10px 15px;
+  border: 2px solid #000000;
+  background-color: white;
+  margin: 30px;
+}
+
+button:hover {
+  cursor: grab;
+  background-color: black;
+  color: white;
 }

@@ -6,12 +6,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amanda's portfolio</title>
-    
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav>
-      <ul>
+      <ul class="nav">
         <li>ABOUT ME</li>
         <li>PROECTS</li>
         <li>RESUME</li>
@@ -19,62 +18,67 @@
       </ul>
     </nav>
 
-    <h1>Amanda KIBENDE / Développeuse web front-end</h1>
+  
 
     <div class="container">
-      <div class="aboutme">
-        <h1>
-          <b><i>
-              < HELLO WORLD/>
-            </i></b>
-        </h1>
-      
-        <p>
-          Salut, moi c'est Amanda. Je suis une web enthousiaste, j'apprécie la
-          créativité qu'apporte les technologies. J'ai à cœur d'apprendre et
-          évoluer au sein d'une vrai communauté.
-        </p>
-      
-        <div class="card">
-          <img src="/" alt="amanda's profile picture" />
-          <h4>Développeuse web, front-end</h4>
-          <p>Amanda KIBENDE</p>
-          <p>
-            <a href="https://github.com/amandakibende" target="_blank">GH</a>
-            <a href="https://www.linkedin.com/in/amandakibendehotmailfr/" target="_blank">In</a>
+    <header>
+        <div class="aboutme">
+          <h1>
+            <b><i>
+                < HELLO WORLD />
+              </i></b>
+          </h1>
+        
+          <p class="p-header">
+            - Salut, moi c'est Amanda. Je suis une web enthousiaste, j'apprécie la
+            créativité qu'apporte les technologies. J'ai à cœur d'apprendre et
+            évoluer au sein d'une vrai communauté.
           </p>
+        
+          <div class="card-link">
+            <img src="/" alt="amanda's profile picture" />
+            <p>Développeuse web, front-end</p>
+            <p>Amanda KIBENDE</p>
+            
+            <a href="https://www.linkedin.com/in/amandakibendehotmailfr/" target="_blank" > <img src="./In.png" alt="linkedin logo link"> </a>
+            
+            <a href="https://github.com/amandakibende" target="_blank" > <img src="./github.png" alt="github logo link"> </a>
+            <a href="https://twitter.com/amandacode1" target="_blank" > <img src="./twitter.png" alt="twitter logo link"> </a>
+
+            
+          </div>
         </div>
-      </div>
+    </header>
       
         <div class="projects">
         <h2>PROJECTS</h2>
       
-        <div class="squares">
-          <h4>Auntie Ginger Restaurant</h4>
+        
+          <h3">Auntie Ginger Restaurant</h3">
       
           <p>I create a landing page from scratch. I wanted for this web page to be responsive friendly.</p>
           <p>Techno: HTML5, CSS3, ES6</p>
           <p>Image:<a href="https://unsplash.com/s/photos/ginger" target="_blank">unsplash</a></p>
           <div class="btn">
-            <ul>
-              <li> <button>Voir le site</button> </li>
-              <li> <button>Voir le code</button> </li>
+            
+               <button>Voir le site</button> 
+               <button>Voir le code</button> 
             </ul>
           </div>
       
         </div>
         <br/>
-        <div class="squares">
-          <h4>React weather</h4>
+        
+          <h3">React weather</h3">
           <img src="/" alt="weater app front page">
           <p>This is a weather app created from scratch, using React.</p>
           <p>Techno: HTML5, CSS3, ES6, REACT, Bootstrap</p>
           <p>Api:<a href="https://openweathermap.org/" target="_blank">openweathermap.org</a></p>
           <div class="btn">
-            <ul>
-              <li> <button>Voir le site</button> </li>
-              <li> <button>Voir le code</button> </li>
-            </ul>
+            
+               <button>Voir le site</button> 
+              <button>Voir le code</button> 
+            
           </div>
         </div>
       </div>
@@ -84,20 +88,21 @@
       <div class="resume">
         <h2>RESUME</h2>
       
-        <h4>Certfication/Etudes</h4>
+        <h3">Certfication/Etudes</h3">
         <p>*<a href="https://www.shecodes.io/" target="_blank">SheCodes</a>: programme d'apprentissage web front-end en
           anglais exclusivement</p>
       
-        <div class="squares">
-          <h5>2020 - SheCodes React development</h5>
+        
+          <h3">2020 - SheCodes React development</h3">
           <p>Apprentissage des bases de REACT et application sur project.</p>
           <button> <a href="https://www.shecodes.io/certificates/39497fe5b6010b50ac2e76915a272141" target="_blank">voir
               certificat</a> </button>
+              
       
         </div>
         <br />
-        <div class="squares">
-          <h5>2020 - SheCodes front-end development</h5>
+        
+          <h3">2020 - SheCodes front-end development</h3">
           <p> Application approfondi des technologies utilisé precedemment. Sensibilisation au responsive design.</p>
           <p>Techno : HTML5, CSS3, Bootstrap, utilisation d'Api, ES6</p>
           <button> <a href="https://www.shecodes.io/certificates/3da643e05dbb5f3dcbdb65e29ec57239" target="_blank">voir
@@ -105,8 +110,8 @@
       
         </div>
         <br />
-        <div class="squares">
-          <h5>2020 - SheCodes Workshop</h5>
+        
+          <h3">2020 - SheCodes Workshop</h3">
           <p> Introduction aux différents outils de front-end. Utilisation de html, css3 et javascript afin de rendre une page
             web interactive.</p>
           <p>Techno : HTML5, CSS3,ES6</p>
@@ -115,98 +120,87 @@
       
         </div>
         <br />
-        <div class="squares">
-         <h5>2014-2017  INALCO</h5>
+        
+         <h3">2014-2017  INALCO</h3">
          <p>Hindi</p>
 
         </div>
         <br />
-        <div class="squares">
-          <h5>2012-2014  Sorbonne Paris 1</h5>
+        
+          <h3">2012-2014  Sorbonne Paris 1</h3">
           <p>Droit</p>
         </div>
       
       
-        <h4>Outils technologies</h4>
-        <div class="squares">
-          <div class="col">
-            <img src="https://www.flaticon.com/svg/static/icons/svg/1216/1216733.svg" alt="HTML5 logo" class="img-logo"
-              width="30" />
-            <small>HTML5</small>
-          </div>
-          <div class="col">
-            <img src="https://www.flaticon.com/svg/static/icons/svg/732/732190.svg" alt="css 3 logo" class="img-logo"
-              width="30" />
-            <small>CSS3</small>
-          </div>
-          <div class="col">
-            <img src="./bootstrap.png" alt="Bootstrap logo" class="img-logo" width="30" />
-            <small>Bootstrap</small>
-          </div>
-          <div class="col">
-            <img src="./js.png" alt="Javascript, es6 logo" class="img-logo" width="30" />
-            <small>ES6</small>
-          </div>
-          <div class="col">
-            <img src="./react.png" alt="React logo" class="img-logo" width="30" />
-            <small>REACT</small>
-          </div>
-          <div class="col">
-            <img src="./vscode.png" alt="Vs code logo" class="img-logo" width="30" />
-            <small>VS CODE <CODE></CODE></small>
-          </div>
-          <div class="col">
-            <img src="./git.png" alt="git logo" class="img-logo" width="30" />
-            <small>GIT</small>
-            <div class="col">
-              <img src="./github.png" alt="github logo" class="img-logo" width="30" />
-              <small>Github</small>
-              <div class="col">
-      
-              </div>
-              <small>
-                <div class="smallest">Icons made by <a href="https://www.flaticon.com/authors/freepik"
-                    title="Freepik">Freepik</a>
-                  and <a href="https://icons8.com/icons/">icons8</a></div>
-            </div></small>
-          </div>
+        <h2>Outils technologies</h2>
+        
+          <div class="row">
+            <div class="col-2">
+              <img src="https://www.flaticon.com/svg/static/icons/svg/1216/1216733.svg" alt="HTML5 logo" class="img-logo"
+                width="40" />
+              <small>HTML5</small>
+            </div>
+            <div class="col-2">
+              <img src="https://www.flaticon.com/svg/static/icons/svg/732/732190.svg" alt="css 3 logo" class="img-logo"
+                width="40" />
+              <small>CSS3</small>
+            </div>
+            <div class="col-2">
+              <img src="./bootstrap.png" alt="Bootstrap logo" class="img-logo" width="40" />
+              <small>Bootstrap</small>
+            </div>
+            <div class="col-2">
+              <img src="./js.png" alt="Javascript, es6 logo" class="img-logo" width="40" />
+              <small>ES6</small>
+            </div>
+            <div class="col-2">
+              <img src="./react.png" alt="React logo" class="img-logo" width="40" />
+              <small>REACT</small>
+            </div>
+            <div class="col-2">
+              <img src="./vscode.png" alt="Vs code logo" class="img-logo" width="40" />
+              <small>VSCODE</small>
+            </div>
+            <div class="col-2">
+              <img src="./git.png" alt="git logo" class="img-logo" width="40" />
+              <small>GIT</small>
+            </div>
+              <div class="col-2">
+                <img src="./github.png" alt="github logo" class="img-logo" width="40" />
+                <small>Github</small>
+                </div>
         </div>
       
       
-        <h4>Compétences</h4>
-        <div class="squares"></div>
-        <h4>Langues</h4>
-        <div class="squares"></div>
+        <h2>Compétences, Langues</h2>
+        <p>Pugnace, Optimiste</p>
+        </div>
+       
       
-        <h4>Expériences professionel</h4>
-        <div class="squares">
-          <ul>
-            <li>
+
+        <h2>Expériences professionel</h2>
+        
+          
               <p>2020</p>
-              <h5>Liberkeys - agente commerciale en immobilier (indépendant)</h5>
+              <h3">Liberkeys - agente commerciale en immobilier (indépendant)</h3">
               <p>Travailler en tant qu'indépendante m'a permis de beaucoup mieux prioriser mon temps. Je suis également
                 beaucoup plus discipliné car le plus dur en freelance c'est le fait de ne pas avoir de cadre. </p>
-            </li>
-            <li>
+           
               <p>2019</p>
-              <h5>CPH IMMOBILIER - Négociatrice en transaction immobilière</h5>
+              <h3">CPH IMMOBILIER - Négociatrice en transaction immobilière</h3">
               <p> Avec ce poste j'ai aiguisé ma rigoureusité, la satisfaction client est très importante pour moi. Cela m'a
                 confirmé que m'a capacité d'écoute et ma personalité sont des atouts très utile pour assurer la réussite dans
                 mon métier.</p>
-            </li>
-            <li>
+            
               <p>2017-2018</p>
-              <h5>ALLIANZ - Chargée d'assistance médicale bilingue anglais</h5>
+              <h3">ALLIANZ - Chargée d'assistance médicale bilingue anglais</h3">
               <p> Grâce à ce poste j'ai pu développer une grande maturité pour prendre le recul sur des situations très
                 délicates afin d'apporter et mettre en oeuvre des solutions adéquates.</p>
               <p>Travailler sur un plateau international a été une chance car j'ai pu en plus de l'anglais utiliser mes
                 connaissances en hindi et espagnol.</p>
-            </li>
-      
-          </ul>
+                
+            
         </div>
-      
-      
       </div>
       <div class="contact">
         <h2>CONTACT</h2>
@@ -216,19 +210,28 @@
     
   </body>
   <footer>
-    <a href="https://github.com/amandakibende" target="_blank">Open source</a>
-    code by me
-    <ul>
-      <li>2020 by Amanda KIBENDE</li>
-      <li>
+    
+      <small>
         Follow me here:
-        <a href="https://github.com/amandakibende" target="_blank">GH</a>
-        <a
-          href="https://www.linkedin.com/in/amandakibendehotmailfr/"
-          target="_blank"
-          >IN</a
-        >
-      </li>
-    </ul>
+        <a href="https://www.linkedin.com/in/amandakibendehotmailfr/" target="_blank"> <img src="./In.png"
+            alt="linkedin logo link" width="20"> </a>
+        
+        <a href="https://github.com/amandakibende" target="_blank"> <img src="./github.png" alt="github logo link" width="20"> </a>
+        <a href="https://twitter.com/amandacode1" target="_blank"> <img src="./twitter.png" alt="twitter logo link" width="20"> </a>
+      
+      </small>
+      <small>
+        <p>
+          crédit:
+          <div class="smallest">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            and <a href="https://icons8.com/icons/">icons8</a></div>
+          </div>
+        
+        </p>
+        <p> <a href="https://github.com/amandakibende" target="_blank">Open source</a>
+          code by Amanda KIBENDE</p>
+      </small>
+      
+    
   </footer>
 </html>
