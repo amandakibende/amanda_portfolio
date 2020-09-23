@@ -12,6 +12,18 @@ nav {
   font-weight: bold;
   font-style: italic;
 }
+h2 {
+  background-color: #ffe8e8;
+  max-width: 100px;
+}
+h3 {
+  background-color: #f4e8ff;
+  max-width: 130px;
+}
+
+h4 {
+  font-weight: bolder;
+}
 
 header {
   padding: 300px 80px;
@@ -59,8 +71,50 @@ td {
   text-align: left;
 }
 
-label,
+label {
+  display: inline-block;
+  padding: 15px 15px 15px 0;
+}
+
+input,
+textarea {
+  width: 100px;
+  resize: vertical;
+  border: 2x solid black;
+  padding: 15px;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5;
+}
+
 input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: ridge;
+}
+
+.rspv-label,
+.rspv-input {
   float: left;
-  margin-top: 3px;
+  margin-top: 6;
+}
+
+.rspv-label {
+  width: 25px;
+}
+
+.rspv-input {
+  width: 75px;
+}
+
+@media screen and (max-width: 600px) {
+  .rspv-input,
+  .rspv-label,
+  .form-btn {
+    width: 100%;
+    margin-top: 0;
+  }
 }
