@@ -71,50 +71,11 @@ td {
   text-align: left;
 }
 
-label {
-  display: inline-block;
-  padding: 15px 15px 15px 0;
+footer {
+  background-color: #f4ffe8;
+  padding: 20px;
 }
 
-input,
-textarea {
-  width: 100px;
-  resize: vertical;
-  border: 2x solid black;
-  padding: 15px;
-}
-
-textarea {
-  vertical-align: top;
-  height: 5;
-}
-
-input {
-  border-top-style: hidden;
-  border-right-style: hidden;
-  border-left-style: hidden;
-  border-bottom-style: ridge;
-}
-
-.rspv-label,
-.rspv-input {
-  float: left;
-  margin-top: 6;
-}
-
-.rspv-label {
-  width: 25px;
-}
-
-.rspv-input {
-  width: 75px;
-}
-
-@media screen and (max-width: 600px) {
-  .rspv-input,
-  .rspv-label,
-  .form-btn {
-    width: 100%;
-    margin-top: 0;
-  }
+small {
+  margin: 15px;
 }
